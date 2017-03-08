@@ -1,0 +1,7 @@
+{
+ "name": "mobile-ti-cli",
+ "version": "0.0.1",
+ "dependencies" : {
+   "titanium" : "3.3.0"
+ }
+}
