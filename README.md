@@ -1,5 +1,5 @@
 # Creating build 
-docker build -t kamesh/node-ti-app .
+docker build -t hybrid/node-ti-app .
 
 # Running the Docker 
-docker run -v /Users/admin/Kamesh-Project/:/usr/src/app/ -i -t  /bin/bash
+docker run -v /Users/admin/hybrid/:/usr/src/app/ -i -t  hybrid/node-ti-app /bin/bash
